@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
@@ -11,7 +12,8 @@ public class Main {
         char d = sc.next().charAt(0);
 
 
-        System.out.println("ZDAROVA");
+        /* String[] itemBuild = {"Линза", "Урна", "Блинк", "Аганим", "Глимер"};
+        System.out.println(itemBuild[0]); */
 
         if (d == '+') {
             System.out.println("Ваше значение: " + (a + b));
