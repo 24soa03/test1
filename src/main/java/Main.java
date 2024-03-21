@@ -10,6 +10,9 @@ public class Main {
         System.out.println("Введите операцию ");
         char d = sc.next().charAt(0);
 
+
+        System.out.println("ZDAROVA");
+
         if (d == '+') {
             System.out.println("Ваше значение: " + (a + b));
         } else if (d == '-') {
